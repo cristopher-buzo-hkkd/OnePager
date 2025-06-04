@@ -1,0 +1,145 @@
+:root {
+    --color-purple: #552cb7;
+    --color-pink: #fb7da8;
+    --color-blue: #058cd7;
+    --color-green: #00995e;
+    --color-red: #fd5a46;
+    --color-dark-yellow: #fcc567;
+    --color-light-yellow: #ffe8ce;
+
+    --title-font: 'Bungee Shade', sans-serif;
+    --subtitle-font: 'Bungee', sans-serif;
+    --text-font: 'Nunito Sans', sans-serif;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-light-yellow);
+  }
+
+header, footer {
+    text-align: center;
+    padding: 1rem;
+}
+  
+main {
+    padding: 2rem;
+}
+
+.intro_img{
+    display: flex;
+}
+
+.intro_img img {
+    width: 400px;
+    height: auto;
+  }
+
+.intro_text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;        
+    justify-content: center;
+}
+
+.intro_text h1 {
+font-family: var(--title-font);
+font-size: 60px;
+text-shadow: -0.5px -0.5px 0 black, 0.5px -0.5px 0 black, -0.5px 0.5px 0 black, 0.5px 0.5px 0 black;
+}
+
+.intro_text p {
+    font-family: var(--subtitle-font);
+    font-size: 30px;
+}
+
+.intro_text_btn {
+    position: relative;
+}
+  
+.btn-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--subtitle-font);
+    font-size: 18px;
+    padding: 1rem 2rem;
+    background-color: var(--color-purple);
+    color: white;
+    border: 3px solid black;
+    border-radius: 18px;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+  }
+  
+  .btn-background {
+    position: absolute;
+    top: calc(100% - 2.5rem);
+    left: 0.8rem;
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    border-radius: 18px;
+    z-index: 1;
+  }
+
+.personal{
+    margin-top: 2rem;
+    background-color: var(--color-dark-yellow);
+    display: flex;
+    
+    padding: 100px 50px 100px 80px;
+}
+
+.personal_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.personal_description{
+    display: flex;
+}
+
+.personal_description h1{
+    font-family: var(--subtitle-font);
+    font-size: 40px;
+    color: white;
+}
+
+.personal_description p{
+    font-family: var(--text-font);
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+
+.personal_name h1{
+    font-family: var(--subtitle-font);
+    font-size: 25px;
+    color: white;
+    margin-left: -50px;
+}
+
+.personal_name p{
+    font-family: var(--subtitle-font);
+    font-size: 20px;
+    color: black;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+.personal_img{
+    display: flex;
+    align-items: center;
+}
+
+.personal_img img {
+    width: 500px;
+    height: auto;
+  }
