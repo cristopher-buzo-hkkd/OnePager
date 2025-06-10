@@ -429,4 +429,29 @@ footer {
     color: white;
     padding: 1rem;
     display: flex;
+    align-items: center;
+}
+
+.footer-info {
+    display: flex;
+    margin: 2rem 0;
+    align-items: center;
+}
+
+.footer-text p{
+    display: flex;
+    margin: -2px;
+    font-family: var(--text-font);
+    font-weight: 500;
+}
+
+.footer-icon img{
+    width: 40px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.footer-icon-hkkd img{
+    width: 500px;
+    height: auto;
 }
